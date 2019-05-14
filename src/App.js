@@ -1,26 +1,47 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super()
+
+
+  }
+
+    showSidebar = () => {
+      return <Sidebar />
+    }
+
+  render() {
+    return (
+        <div>
+        <Layout>
+            <Header id="header-colour" title={<Link to="/"></Link>}>
+                <Navigation id="navBar">
+                    <Link to="/" id="link-navbar-0">Home</Link>
+                    <Link to="/about" id="link-navbar-1">About</Link>
+                    <Link to="/curriculumvitae" id="link-navbar-2">CV</Link>
+                    <Link to="/projects" id="link-navbar-3">Projects</Link>
+                    <Link to="/contact" id="link-navbar-4">Contact</Link>
+                </Navigation>
+            </Header>
+
+
+            <Content>
+              <div className="page-content">
+              <Main showSidebar={this.showSidebar}/>
+              </div>
+            </Content>
+        </Layout>
+        </div>
+
+
+    );
+  }
 }
 
 export default App;
