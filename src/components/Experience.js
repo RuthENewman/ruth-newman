@@ -15,11 +15,23 @@ const Experience = () => {
           <th>Summary</th>
         </tr>
           <tbody>
+          <tr><td>Aug 2019 - Present</td><td>Ticket Tailor</td><td>Full Stack Developer</td>
+              <td id="experience-summary">
+               <ul>
+               <li>PHP / JavaScript full stack role at a SaaS start-up ticketing platform supporting £200m in ticket sales and selling > 5m tickets a year</li>
+               <li>Built new features as part of a team, pairing and individually - including multi-user login, an API and PDF, CSV and print doorlist feature</li>
+               <li>Released software through a continuous integration pipeline - code review, writing and running unit tests, deployments, acceptance tests</li>
+              <li>Migrated dozens of pages from legacy framework to a micro framework</li>
+              <li>Researched and wrote documentation for V1 of a public API and for Hugo new marketing website, and built out pages with new branding</li>
+              <li>Fixing bugs and acting on rotation, providing developer support for customer escalations</li>
+               </ul>
+             </td>
+            </tr>
             <tr><td>Mar 2019 - Present</td><td>Software Engineering</td><td>Full Stack Web Developer</td>
               <td id="experience-summary">
                <ul>
                  <li>Completed challenge to make 30 vanilla JavaScript projects over 30 days <a href="https://github.com/RuthENewman/30vanillaJSprojects">GitHub</a></li>
-                 <li>Ongoing and upcoming projects with: React; Jest, Mocha and Chai unit testing; Node.JS; Python/Flask/Django</li>
+                 <li>Projects with: React, Laravel, Ruby on Rails, including using Jest, PHPUnit and Rspec unit testing; Node.JS</li>
                </ul>
              </td>
             </tr>

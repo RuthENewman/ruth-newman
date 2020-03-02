@@ -9,7 +9,15 @@ class About extends Component {
         <h1>About Me</h1>
         </div>
         <div className="about-summary">
-        <p>I am a Full Stack Web Developer specialising in <span className="specialisation">JavaScript</span>, <span className="specialisation">React</span> and <span className="specialisation">Ruby on Rails</span>. Additionally, I have experience with <span className="specialisation">jQuery</span>, <span className="specialisation">HTML</span>, <span className="specialisation">CSS</span>, and <span className="specialisation">React Native</span>, and
+        <p>I am a Full Stack Web Developer specialising in <span className="specialisation">JavaScript</span>, 
+        <span className="specialisation"> React</span>, 
+        <span className="specialisation"> PHP</span> and 
+          <span className="specialisation"> Ruby on Rails</span>. 
+        Additionally, I have experience with 
+        <span className="specialisation"> jQuery</span>, 
+        <span className="specialisation"> HTML</span>, 
+        <span className="specialisation"> CSS</span>, and 
+        <span className="specialisation"> SQL</span> and
         continue to build with additional languages, frameworks and libraries.
         </p>
         <p>Having worked internationally, including across South Asia, East Africa and the Former Soviet Union, and in the humanitarian
